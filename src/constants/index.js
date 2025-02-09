@@ -47,12 +47,12 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Frontend Developer",
-    icon: backend,
-  },
-  {
     title: "Next.js Developer",
     icon: creator,
+  },
+  {
+    title: "Frontend Developer",
+    icon: backend,
   },
 ];
 
