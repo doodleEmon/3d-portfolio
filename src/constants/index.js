@@ -138,10 +138,11 @@ const experiences = [
       "Developing and maintaining web applications using React.js, Next.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Worked on Wozaif. It's a job portal site for agency, employer and job seekers.",
+      "Worked on https://www.wozaif.com/. It's a job portal site for agency, employer and candidate.",
       "I worked on frontend and the admin panel in this project.",
+      "I worked on login system by using AWS Cognito.",
       "In the frontend i worked on job search page where searching, filtering and sorting functionality is available.",
-      "And in the admin, i worked on agency, employer and job management.",
+      "And in the admin, i worked on agency, employer, candidate and job management.",
     ],
   },
 ];
