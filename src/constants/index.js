@@ -14,12 +14,12 @@ import {
   mongodb,
   git,
   figma,
-  docker,
   doodle,
   carrent,
   jobit,
   tripguide,
-  threejs,
+  nextjs,
+  aws
 } from "../assets";
 
 export const navLinks = [
@@ -78,6 +78,10 @@ const technologies = [
     icon: reactjs,
   },
   {
+    name: "Next JS",
+    icon: nextjs,
+  },
+  {
     name: "Redux Toolkit",
     icon: redux,
   },
@@ -94,10 +98,6 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
   },
@@ -106,8 +106,8 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "aws",
+    icon: aws,
   },
 ];
 
