@@ -138,7 +138,7 @@ const experiences = [
     company_name: "Doodle Inc.",
     icon: doodle,
     iconBg: "#383E56",
-    date: "May 2024 - Current",
+    date: "May 2024 - Present",
     points: [
       "Developing and maintaining web applications using React.js, Next.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
