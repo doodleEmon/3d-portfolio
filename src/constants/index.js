@@ -15,11 +15,12 @@ import {
   git,
   figma,
   doodle,
-  carrent,
+  shefa,
+  vromon,
   jobit,
-  tripguide,
   nextjs,
-  aws
+  firebase,
+  aws,
 } from "../assets";
 
 export const navLinks = [
@@ -106,6 +107,10 @@ const technologies = [
     icon: figma,
   },
   {
+    name: "firebase",
+    icon: firebase,
+  },
+  {
     name: "aws",
     icon: aws,
   },
@@ -176,16 +181,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Shefa",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to buy medicines from various providers, providing a convenient and efficient solution for treatment needs.            ",
     tags: [
       {
-        name: "react",
+        name: "mern",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "firebase",
         color: "green-text-gradient",
       },
       {
@@ -193,51 +198,51 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: shefa,
+    source_code_link: "https://github.com/jfmemon/online-pharmacy-client",
   },
   {
-    name: "Job IT",
+    name: "Vromon",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that enables users to book hotels, transports from agency. Providing a convenient and efficient solution for booking solutions.",
     tags: [
       {
-        name: "react",
+        name: "mern",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "firebase",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: vromon,
+    source_code_link: "https://github.com/jfmemon/vromon-client",
   },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
+  // {
+  //   name: "Trip Guide",
+  //   description:
+  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+  //   tags: [
+  //     {
+  //       name: "nextjs",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "supabase",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: tripguide,
+  //   source_code_link: "https://github.com/",
+  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };

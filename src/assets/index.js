@@ -21,11 +21,12 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import firebase from "./tech/firebase.png";
 
 import doodle from "./company/doodle.png";
 
-import carrent from "./carrent.png";
+import shefa from "./shefa.png";
+import vromon from "./vromon.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -50,11 +51,12 @@ export {
   redux,
   tailwind,
   typescript,
-  threejs,
   doodle,
-  carrent,
+  shefa,
+  vromon,
   jobit,
   tripguide,
   nextjs,
-  aws
+  aws,
+  firebase
 };
