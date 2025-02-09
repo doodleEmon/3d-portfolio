@@ -125,7 +125,7 @@ const experiences = [
       "Completed AWS services course provided by company.",
       " Worked on various project like https://www.tribel.com/, https://www.tickettomorrow.com/ . Tribel is a social media platform & Ticket tomorrow is a platform related to ticketing services for any functions or event like concert.",
       " I worked on ticket creating system on ticket tomorrow and on some features of admin panel.",
-      " In Tribel, I worked on migrating from React.js to Next.js.",
+      " In Tribel, I worked on migrating from React.js to Next.js. Here i broadly used Next.js features. I contributed to the frontend.",
     ],
   },
   {
@@ -135,10 +135,13 @@ const experiences = [
     iconBg: "#383E56",
     date: "May 2024 - Current",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining web applications using React.js, Next.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Worked on Wozaif. It's a job portal site for agency, employer and job seekers.",
+      "I worked on frontend and the admin panel in this project.",
+      "In the frontend i worked on job search page where searching, filtering and sorting functionality is available.",
+      "And in the admin, i worked on agency, employer and job management.",
     ],
   },
 ];
