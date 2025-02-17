@@ -240,15 +240,15 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "typescript",
+        name: "Typescript",
         color: "green-text-gradient",
       },
       {
-        name: "Tailwind",
+        name: "Tailwind & CSS",
         color: "blue-text-gradient",
       },
       {
-        name: "aws",
+        name: "AWS",
         color: "pink-text-gradient",
       },
     ],
