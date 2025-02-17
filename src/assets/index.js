@@ -25,9 +25,9 @@ import firebase from "./tech/firebase.png";
 
 import doodle from "./company/doodle.png";
 
-import shefa from "./shefa.png";
-import vromon from "./vromon.png";
-import jobit from "./jobit.png";
+import tribel from "./tribel.png";
+import wozaif from "./wozaif.png";
+import tickettomorrow from "./tickettomorrow.png";
 import tripguide from "./tripguide.png";
 
 export {
@@ -52,11 +52,11 @@ export {
   tailwind,
   typescript,
   doodle,
-  shefa,
-  vromon,
-  jobit,
+  tribel,
+  wozaif,
+  tickettomorrow,
   tripguide,
   nextjs,
   aws,
-  firebase
+  firebase,
 };

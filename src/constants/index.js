@@ -15,9 +15,9 @@ import {
   git,
   figma,
   doodle,
-  shefa,
-  vromon,
-  jobit,
+  tribel,
+  tickettomorrow,
+  wozaif,
   nextjs,
   firebase,
   aws,
@@ -40,20 +40,20 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Frontend Developer",
     icon: web,
   },
   {
-    title: "React Developer",
+    title: "Backend Developer",
+    icon: backend,
+  },
+  {
+    title: "React.js Developer",
     icon: mobile,
   },
   {
     title: "Next.js Developer",
     icon: creator,
-  },
-  {
-    title: "Frontend Developer",
-    icon: backend,
   },
 ];
 
@@ -181,68 +181,80 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Shefa",
+    name: "Tribel",
     description:
-      "Web-based platform that allows users to buy medicines from various providers, providing a convenient and efficient solution for treatment needs.            ",
+      "Tribel is considered a social networking website. It's a platform where users can connect with friends, family, and others by sharing information, photos, and updates, essentially building online social networks.",
     tags: [
       {
-        name: "mern",
+        name: "Next.js",
         color: "blue-text-gradient",
       },
       {
-        name: "firebase",
+        name: "Javascript",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "CSS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "AWS",
         color: "pink-text-gradient",
       },
     ],
-    image: shefa,
-    source_code_link: "https://github.com/jfmemon/online-pharmacy-client",
+    image: tribel,
+    source_code_link: "https://www.tribel.com/",
   },
   {
-    name: "Vromon",
+    name: "Wozaif",
     description:
-      "Web application that enables users to book hotels, transports from agency. Providing a convenient and efficient solution for booking solutions.",
+      "Wozaif is a leading recruitment platform dedicated to connecting skilled professionals, trusted agencies, and employers across the GCC. They simplify the hiring process with transparency and ethical practices, ensuring fair opportunities for migrant workers.",
     tags: [
       {
-        name: "mern",
+        name: "Next.js",
         color: "blue-text-gradient",
       },
       {
-        name: "firebase",
+        name: "Typescript",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Tailwind & CSS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "AWS",
         color: "pink-text-gradient",
       },
     ],
-    image: vromon,
-    source_code_link: "https://github.com/jfmemon/vromon-client",
+    image: wozaif,
+    source_code_link: "https://www.wozaif.com/",
   },
-  // {
-  //   name: "Trip Guide",
-  //   description:
-  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-  //   tags: [
-  //     {
-  //       name: "nextjs",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "supabase",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: tripguide,
-  //   source_code_link: "https://github.com/",
-  // },
+  {
+    name: "Ticket Tomorrow",
+    description:
+      "Ticket Tomorrow is a one-stop entertainment destination that additionally provides ticketing services. They offer tickets for concerts, festivals, sports, and theatre, ensuring regular reliance on them.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "aws",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tickettomorrow,
+    source_code_link: "https://www.tickettomorrow.com/",
+  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };

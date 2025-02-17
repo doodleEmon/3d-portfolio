@@ -25,7 +25,7 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
+        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full min-h-[485px]"
       >
         <div className="relative w-full h-[230px]">
           <img
@@ -39,11 +39,12 @@ const ProjectCard = ({
               onClick={() => window.open(source_code_link, "_blank")}
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
-              <img
+              {/* <img
                 src={github}
                 alt="source code"
                 className="w-1/2 h-1/2 object-contain"
-              />
+              /> */}
+              <small>Visit</small>
             </div>
           </div>
         </div>
@@ -53,7 +54,7 @@ const ProjectCard = ({
           <p className="mt-2 text-secondary text-[14px]">{description}</p>
         </div>
 
-        <div className="mt-4 flex flex-wrap gap-2">
+        <div className="absolute bottom-4 flex flex-wrap gap-2">
           {tags.map((tag) => (
             <p
               key={`${name}-${tag.name}`}
@@ -81,10 +82,10 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          Here are some previous projects that I made. These projects
-          showcases my skills and experience through real-world examples of my
-          work. It reflects my ability to solve complex problems, work with
-          different technologies, and manage projects effectively.
+          Here are some projects that I worked on. These projects showcases my
+          skills and experience through real-world examples of my work. It
+          reflects my ability to solve complex problems, work with different
+          technologies, and manage projects effectively.
         </motion.p>
       </div>
 

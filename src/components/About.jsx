@@ -47,11 +47,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in JavaScript and
-        TypeScript, and expertise in libraries and frameworks like React,
-        Next.js. I'm a quick learner who collaborates effectively to create
-        efficient, scalable, and user-friendly solutions that address real-world
-        problems. Let's work together to bring your ideas to life!
+        I am a skilled software developer with expertise in JavaScript,
+        TypeScript, and frameworks like React and Next.js. A quick learner and
+        effective collaborator, I specialize in building efficient, scalable,
+        and user-friendly solutions that solve real-world problems. Let’s work
+        together to bring your ideas to life!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
