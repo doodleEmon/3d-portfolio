@@ -15,6 +15,7 @@ import {
   git,
   figma,
   doodle,
+  infoInlet,
   tribel,
   tickettomorrow,
   wozaif,
@@ -153,7 +154,7 @@ const experiences = [
   {
     title: "Jr. Software Engineer",
     company_name: "Info Inlet",
-    icon: doodle,
+    icon: infoInlet,
     iconBg: "#383E56",
     date: "April 2025 - Present",
     points: [

@@ -24,6 +24,7 @@ import typescript from "./tech/typescript.png";
 import firebase from "./tech/firebase.png";
 
 import doodle from "./company/doodle.png";
+import infoInlet from "./company/infoInlet.png";
 
 import tribel from "./tribel.png";
 import wozaif from "./wozaif.png";
@@ -52,6 +53,7 @@ export {
   tailwind,
   typescript,
   doodle,
+  infoInlet,
   tribel,
   wozaif,
   tickettomorrow,
