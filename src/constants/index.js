@@ -19,6 +19,7 @@ import {
   tribel,
   tickettomorrow,
   wozaif,
+  ktTravel,
   nextjs,
   firebase,
   aws,
@@ -238,7 +239,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "Tailwind & CSS",
+        name: "Tailwind",
         color: "blue-text-gradient",
       },
       {
@@ -263,7 +264,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "Tailwind & CSS",
+        name: "Tailwind",
         color: "blue-text-gradient",
       },
       {
@@ -273,6 +274,31 @@ const projects = [
     ],
     image: tickettomorrow,
     source_code_link: "https://www.tickettomorrow.com/",
+  },
+  {
+    name: "KT Travel",
+    description:
+      "KT Travel is a travel blog application where users can explore reviews of various tourist places and spots. It helps travelers make better decisions by viewing reviews, comments, photos, and videos shared by other visitors. Users can also contribute by writing their own reviews about the places they have already visited.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "PostgreSQL",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ktTravel,
+    source_code_link: "https://kt-travel-frontend-713130595460.asia-northeast1.run.app/en",
   },
 ];
 

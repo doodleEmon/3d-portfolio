@@ -30,6 +30,7 @@ import tribel from "./tribel.png";
 import wozaif from "./wozaif.png";
 import tickettomorrow from "./tickettomorrow.png";
 import tripguide from "./tripguide.png";
+import ktTravel from "./ktTravel.png"
 
 export {
   logo,
@@ -58,6 +59,7 @@ export {
   wozaif,
   tickettomorrow,
   tripguide,
+  ktTravel,
   nextjs,
   aws,
   firebase,
