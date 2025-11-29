@@ -138,7 +138,7 @@ const experiences = [
     company_name: "Doodle Inc.",
     icon: doodle,
     iconBg: "#383E56",
-    date: "May 2024 - Present",
+    date: "May 2024 - March 2025",
     points: [
       "Developing and maintaining web applications using React.js, Next.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -148,6 +148,24 @@ const experiences = [
       "I worked on login system by using AWS Cognito.",
       "In the frontend i worked on job search page where searching, filtering and sorting functionality is available.",
       "And in the admin, i worked on agency, employer, candidate and job management.",
+    ],
+  },
+  {
+    title: "Jr. Software Engineer",
+    company_name: "Info Inlet",
+    icon: doodle,
+    iconBg: "#383E56",
+    date: "April 2025 - Present",
+    points: [
+      "Developing and maintaining web applications using React.js, Next.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Developing , a mobile-first Japanese travel application using Next.js, TypeScript, and Tailwind CSS.. It's a travel blogging.",
+      "Implemented comprehensive search, filter, and sorting functionalities with Google Maps integration.",
+      "Built secure authentication system using Next Auth, improving user experience and security.",
+      "Developed RESTful APIs using Nest.js and PostgreSQL for backend functionality.",
+      "Achieved responsive design and cross-browser compatibility, significantly reducing UI bugs.",
+      "Optimized application performance through efficient component architecture."
     ],
   },
 ];
