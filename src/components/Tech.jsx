@@ -5,10 +5,11 @@ import { SectionWrapper } from "../hoc";
 import { technologies } from "../constants";
 
 const Tech = () => {
+  console.log('techs: ', technologies);
   return (
     <div className="flex flex-row flex-wrap justify-center gap-10">
       {technologies.map((technology) => (
-        <div className="w-28 h-28" key={technology.name}>
+        <div className="w-28 h-28" key={technology.id}>
           <BallCanvas icon={technology.icon} />
         </div>
       ))}

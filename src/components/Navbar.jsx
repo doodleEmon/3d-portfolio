@@ -46,7 +46,7 @@ const Navbar = () => {
             Emon &nbsp;
             <span className="sm:block hidden">
               {" "}
-              |&nbsp;&nbsp;Full-stack Web Developer
+              |&nbsp;&nbsp;<span className="text-[#915EFF]">Full-Stack Web Developer</span>
             </span>
           </p>
         </Link>

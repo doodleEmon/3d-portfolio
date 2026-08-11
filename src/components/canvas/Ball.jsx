@@ -1,5 +1,5 @@
-import React, { Suspense } from "react";
-import { Canvas } from "@react-three/fiber";
+import React, { Suspense, useEffect } from "react";
+import { Canvas, useThree } from "@react-three/fiber";
 import {
   Decal,
   Float,
@@ -11,7 +11,18 @@ import {
 import CanvasLoader from "../Loader";
 
 const Ball = (props) => {
-  const [decal] = useTexture([props.imgUrl]);
+  // Extract URL string if imported as an object (e.g. Next.js image import or Vite module)
+  const iconUrl =
+    typeof props.imgUrl === "object" && props.imgUrl?.src
+      ? props.imgUrl.src
+      : props.imgUrl;
+
+  const [decal] = useTexture([iconUrl]);
+  const { invalidate } = useThree();
+
+  useEffect(() => {
+    invalidate();
+  }, [decal, invalidate]);
 
   return (
     <Float speed={1.75} rotationIntensity={1} floatIntensity={2}>
@@ -38,6 +49,8 @@ const Ball = (props) => {
 };
 
 const BallCanvas = ({ icon }) => {
+  if (!icon) return null; // Guard against undefined first icon
+
   return (
     <Canvas
       frameloop="demand"
