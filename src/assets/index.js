@@ -17,11 +17,14 @@ import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
+import expressjs from "./tech/expressjs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import firebase from "./tech/firebase.png";
+import nestjs from "./tech/nestjs.png";
+import postgresql from "./tech/postgresql.png";
 
 import doodle from "./company/doodle.png";
 import infoInlet from "./company/infoInlet.png";
@@ -49,6 +52,7 @@ export {
   javascript,
   mongodb,
   nodejs,
+  expressjs,
   reactjs,
   redux,
   tailwind,
@@ -63,4 +67,6 @@ export {
   nextjs,
   aws,
   firebase,
+  nestjs,
+  postgresql
 };

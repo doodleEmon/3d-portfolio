@@ -18,10 +18,15 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm <span className="text-[#915EFF]">Md. Jannatul Ferdous Emon</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop web applications.
+          <p className={`text-lg mt-2 text-white-100`}>
+            I am a Software Engineer with 2 years of experience specializing in scalable web applications using mainly <span className="text-yellow-400 font-medium">React.js</span>,{' '}
+            <span className="text-yellow-400 font-medium">Next.js</span>,{' '}
+            <span className="text-yellow-400 font-medium">JavaScript</span>,{' '}
+            <span className="text-yellow-400 font-medium">TypeScript</span>,{' '}
+            <span className="text-yellow-400 font-medium">Nest.js</span>,{' '}
+            <span className="text-yellow-400 font-medium">PostgreSQL</span>. Proven track record of improving application performance, reducing loading times, and delivering user-centric solutions across diverse projects.
           </p>
-            {/* user interfaces <br className="sm:block hidden" />
+          {/* user interfaces <br className="sm:block hidden" />
             and  */}
         </div>
       </div>

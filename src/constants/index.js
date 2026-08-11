@@ -11,6 +11,7 @@ import {
   redux,
   tailwind,
   nodejs,
+  expressjs,
   mongodb,
   git,
   figma,
@@ -23,6 +24,8 @@ import {
   nextjs,
   firebase,
   aws,
+  nestjs,
+  postgresql
 } from "../assets";
 
 export const navLinks = [
@@ -101,6 +104,18 @@ const technologies = [
     icon: nodejs,
   },
   {
+    name: "nest.js",
+    icon: nestjs,
+  },
+  {
+    name: "express.js",
+    icon: expressjs,
+  },
+  {
+    name: "postgresql",
+    icon: postgresql,
+  },
+  {
     name: "MongoDB",
     icon: mongodb,
   },
@@ -119,7 +134,7 @@ const technologies = [
   {
     name: "aws",
     icon: aws,
-  },
+  }
 ];
 
 const experiences = [
