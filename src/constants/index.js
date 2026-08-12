@@ -72,63 +72,63 @@ const technologies = [
     icon: html,
   },
   {
-    name: 2,
+    id: 2,
     icon: css,
   },
   {
-    name: 3,
+    id: 3,
     icon: javascript,
   },
   {
-    name: 4,
+    id: 4,
     icon: typescript,
   },
   {
-    name: 5,
+    id: 5,
     icon: reactjs,
   },
   {
-    name: 6,
+    id: 6,
     icon: nextjs,
   },
   {
-    name: 7,
+    id: 7,
     icon: redux,
   },
   {
-    name: 8,
+    id: 8,
     icon: tailwind,
   },
   {
-    name: 9,
+    id: 9,
     icon: nodejs,
   },
   {
-    name: 10,
+    id: 10,
     icon: nestjs,
   },
   {
-    name: 11,
+    id: 11,
     icon: expressjs,
   },
   {
-    name: 12,
+    id: 12,
     icon: postgresql,
   },
   {
-    name: 13,
+    id: 13,
     icon: mongodb,
   },
   {
-    name: 14,
+    id: 14,
     icon: git,
   },
   {
-    name: 15,
+    id: 15,
     icon: figma,
   },
   {
-    name: 16,
+    id: 16,
     icon: firebase,
   }
 ];
